@@ -26,6 +26,12 @@ export function Header() {
             Арт-метод
           </a>
           <a
+            href="#gallery"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
+          >
+            Галерея
+          </a>
+          <a
             href="#pricing"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
           >
