@@ -29,6 +29,36 @@ const photos = [
     description: "Подготовительный этап: отмеривание и смешивание компонентов эпоксидной смолы с отвердителем",
     span: "",
   },
+  {
+    src: "https://cdn.poehali.dev/projects/953d4a39-fd29-4333-9bbe-bfff677a59f9/bucket/041b2016-7ed7-42dd-a965-c1292182f07f.jpg",
+    caption: "Прозрачная смола с отвердителем",
+    description: "Смола после смешивания с отвердителем — прозрачная жидкость с пузырьками, которые выходят перед заливкой",
+    span: "",
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/953d4a39-fd29-4333-9bbe-bfff677a59f9/bucket/398b1e8a-614e-4e07-9986-ee70413f9cca.jpg",
+    caption: "Чистая смола перед работой",
+    description: "Свежезамешанная эпоксидная смола — ещё прозрачная и без пигментов, готова к окрашиванию",
+    span: "",
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/953d4a39-fd29-4333-9bbe-bfff677a59f9/bucket/34291ec7-871e-4c28-a4c6-be08c1a27625.jpg",
+    caption: "Компоненты А и Б",
+    description: "Смола А и отвердитель Б в пропорции 2:1 по весу — точное соблюдение пропорций обязательно",
+    span: "",
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/953d4a39-fd29-4333-9bbe-bfff677a59f9/bucket/d64d8f50-18bd-4cb7-8e72-eb1c2cff6512.jpg",
+    caption: "Все материалы",
+    description: "Полный набор: весы, смола А+Б, пигменты, стаканы, шпажки, морской песок и ракушки",
+    span: "",
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/953d4a39-fd29-4333-9bbe-bfff677a59f9/bucket/96b19761-8f3f-4356-97c9-b4c57b22e774.jpg",
+    caption: "Подготовка основы",
+    description: "Круглая деревянная основа, трафарет с морскими животными, смола и пигменты — всё готово к началу",
+    span: "md:col-span-2",
+  },
 ];
 
 export function Gallery() {
