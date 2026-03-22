@@ -6,37 +6,37 @@ export function Philosophy() {
           {/* Left: Image */}
           <div className="relative aspect-[4/5] bg-muted rounded-lg overflow-hidden">
             <img
-              src="/minimal-scandinavian-workspace-with-natural-light-.jpg"
-              alt="Спокойное рабочее пространство"
+              src="https://cdn.poehali.dev/projects/953d4a39-fd29-4333-9bbe-bfff677a59f9/files/970ff066-280b-4390-936e-e1bad8ef64f4.jpg"
+              alt="Нефтяное загрязнение Чёрного моря"
               className="w-full h-full object-cover"
             />
             {/* Decorative accent */}
             <div className="absolute bottom-6 left-6 right-6 p-6 bg-background/90 backdrop-blur-sm rounded-lg">
               <p className="text-sm text-muted-foreground italic">
-                «Когда жизнь и работа движутся в гармонии, лучшие идеи не просто появляются — они текут сами собой.»
+                «Площадь загрязнения нефтепродуктами после катастрофы 15 декабря 2024 года достигла 400 км² — по оценкам Greenpeace.»
               </p>
             </div>
           </div>
 
           {/* Right: Text content */}
           <div className="flex flex-col gap-8">
-            <span className="text-sm uppercase tracking-widest text-sage">Наша философия</span>
+            <span className="text-sm uppercase tracking-widest text-sage">О проблеме</span>
             <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-tight text-balance">
-              Осознанная работа и тихий фокус
+              Катастрофа в Керченском проливе
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                Hvile родился из простого наблюдения: самая значимая работа редко происходит среди постоянных
-                уведомлений и бесконечных списков задач. Она рождается в моменты тишины.
+                15 декабря 2024 года во время шторма в Керченском проливе разломились два нефтяных танкера
+                «Волгонефть-212» и «Волгонефть-239». В воды Чёрного моря вылилось около 5 тысяч тонн мазута.
               </p>
               <p>
-                Мы создали инструмент, который уважает ритм глубокой работы — создаёт пространство для концентрации,
-                рефлексии и того сосредоточенного внимания, которое превращает обычные задачи в мастерство.
+                Нефтяная плёнка блокирует доступ кислорода, губит черноморских дельфинов, птиц и донную флору.
+                Эта катастрофа — не просто цифры в отчётах. Это трагедия уникальной экосистемы.
               </p>
             </div>
             <div className="pt-4">
               <a href="#features" className="inline-flex items-center gap-2 text-foreground group">
-                <span className="border-b border-foreground pb-0.5">Наш подход</span>
+                <span className="border-b border-foreground pb-0.5">Арт-ответ на катастрофу</span>
                 <span className="text-terracotta group-hover:translate-x-1 transition-transform duration-300">→</span>
               </a>
             </div>

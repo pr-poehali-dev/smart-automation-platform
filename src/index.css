@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,42 +6,42 @@
 
 @layer base {
   :root {
-    /* Scandinavian color palette - warm cream, sage, terracotta accents */
-    --background: 45 20% 95%;
-    --foreground: 30 15% 15%;
+    /* Black Sea color palette - sea blue, dark oil, sandy shore */
+    --background: 210 18% 96%;
+    --foreground: 215 25% 12%;
 
-    --card: 45 15% 98%;
-    --card-foreground: 30 15% 15%;
+    --card: 210 15% 99%;
+    --card-foreground: 215 25% 12%;
 
-    --popover: 45 15% 98%;
-    --popover-foreground: 30 15% 15%;
+    --popover: 210 15% 99%;
+    --popover-foreground: 215 25% 12%;
 
-    --primary: 30 12% 22%;
-    --primary-foreground: 45 20% 95%;
+    --primary: 215 30% 18%;
+    --primary-foreground: 210 18% 96%;
 
-    --secondary: 45 15% 92%;
-    --secondary-foreground: 30 12% 22%;
+    --secondary: 210 15% 92%;
+    --secondary-foreground: 215 30% 18%;
 
-    --muted: 45 12% 88%;
-    --muted-foreground: 30 8% 45%;
+    --muted: 210 12% 88%;
+    --muted-foreground: 215 10% 45%;
 
-    --accent: 25 45% 55%;
-    --accent-foreground: 30 15% 15%;
+    --accent: 200 45% 50%;
+    --accent-foreground: 215 25% 12%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 45 15% 85%;
-    --input: 45 12% 90%;
-    --ring: 140 25% 55%;
+    --border: 210 15% 85%;
+    --input: 210 12% 90%;
+    --ring: 200 40% 50%;
 
     --radius: 0.5rem;
 
-    /* Scandinavian accent colors */
-    --sage: 140 25% 55%;
-    --terracotta: 25 45% 55%;
-    --amber: 40 50% 60%;
-    --stone: 30 8% 45%;
+    /* Black Sea accent colors */
+    --sage: 200 40% 50%;
+    --terracotta: 20 50% 50%;
+    --amber: 35 55% 55%;
+    --stone: 215 10% 45%;
 
     --chart-1: 140 25% 55%;
     --chart-2: 25 45% 55%;
@@ -117,7 +117,7 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'PT Sans', system-ui, sans-serif;
+    font-family: "PT Sans", system-ui, sans-serif;
   }
 
   html {
@@ -131,10 +131,10 @@
   }
 
   .font-serif {
-    font-family: 'Lora', Georgia, serif;
+    font-family: "Lora", Georgia, serif;
   }
 
   .font-sans {
-    font-family: 'PT Sans', system-ui, sans-serif;
+    font-family: "PT Sans", system-ui, sans-serif;
   }
 }
